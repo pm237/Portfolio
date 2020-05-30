@@ -1,33 +1,27 @@
-/*
-STYLE.CSS:
-One stylesheet to rule them all.
 
-*/
 
  @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700|Noto+Sans:400,700|Noto+Serif); 
 
 /* ----- Structure ------- */
 
 body {
-  background-image: url(images/subtle_white_mini_waves.png);
+  background-image: url(images/bg-image-2.jpg);
   margin: 0;
 }
 
 header {
   height: 140px;
   background-color: #403933;
-  background-image: url(images/subtle_brown_mini_waves.png);
 }
 
 main {
-  padding-right: 1px;
-  padding-left: -50px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 footer {
   height: 84px;
   background-color: #403933;
-  background-image: url(images/subtle_brown_mini_waves.png);
 }
 
 .wraper {
@@ -77,9 +71,6 @@ p, li {
   line-height: 26px;
 }
 
-ul {
-  list-style-image: url('images/coffee-cup-icon.png');
-}
 
 a {
   font-weight: 700;
@@ -94,18 +85,17 @@ a:active {
   text-decoration: underline;
  }
 
- footer p {
+ footer h3 {
    color: #fff;
    text-align: center;
+   font-family: 'Noto Sans', sans-serif;
+   font-size: 18px;
+   font-weight: 300;
+   line-height: 26px;
  }
 
- footer a:link { color: #698378; }
- footer a:visited { color: #698378; }
- footer a:hover { color: #a4cdbc; }
- footer a:active { color: #a4cdbc; }
 
  /* ---- Elements ---- */
- /* Not: */
 
  img, iframe { border-radius: 8px;}
 
@@ -113,7 +103,7 @@ a:active {
 
  hr { border: .5px solid #403933; }
 
- ul.coffee li {list-style-image: url('images/coffee-cup-icon.png'); }
+
 
  .gap-sm {
    height: 50px;
